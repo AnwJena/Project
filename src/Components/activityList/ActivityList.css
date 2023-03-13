@@ -1,0 +1,197 @@
+.cont1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.rows1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 10%;
+    background-color: transparent;
+}
+.cols1{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent;
+}
+.cols2{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    height: 100%;
+    background-color:transparent;
+}
+.rows2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 10%;
+    background-color: transparent;
+}
+.rows3{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(86, 86, 104);
+    border-left: 0.5rem solid red;
+    align-items: center;
+    }
+.rows4{
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(86, 86, 104);
+    border-left: 0.5rem solid orange;
+}
+.rows5{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(86, 86, 104);
+    border-left: 0.5rem solid red;
+}
+.rows6{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    height: 90%;
+    background-color: rgb(86, 86, 104);
+    border-left: 0.5rem solid orange;
+}
+input[type="checkbox"] {
+  /* Hide the default checkbox */
+  display: none;
+}
+
+/* Style the label to look like a checkbox */
+label {
+  display: inline-block;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+/* Style the checkbox icon */
+input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  transform: scale(1.5); /* Increase the size */
+  border-color: transparent;
+}
+
+/* Style the checked state */
+input[type="checkbox"]:checked + label:before {
+  background-color: rgb(22, 180, 237);
+}
+
+  
+  /* Style the label to look like a checkbox */
+  label {
+    display: inline-block;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style the checkbox icon */
+  input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transform: scale(1.5); /* Increase the size */
+  }
+.rows22{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 85%;
+    background-color: transparent;
+    /* border-bottom: 2px solid black; */
+    
+}
+.pa1{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(86, 86, 104);
+    padding-left: 4px;
+    align-items: center;
+}
+.pa2{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    height: 100%;
+    background-color: transparent;
+    align-items: center;
+}
+.pa3{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent;
+    align-items: center;
+}
+.rows222{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 50%;
+    background-color: transparent;
+    align-items: center;
+    
+}
+.m1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 50%;
+    background-color: transparent; 
+    align-items: center;
+}
+.m2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 50%;
+    background-color: transparent; 
+    
+}
+.notify{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent; 
+    align-items: center;
+}
+.num{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 100%;
+    background-color: transparent; 
+    align-items: center;
+}
+h5{
+    color: orange;
+}
+
+  
+  

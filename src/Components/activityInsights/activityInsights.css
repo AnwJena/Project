@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+.base{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.firstcol{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.secondcol{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: start;
+    align-items: center;
+    vertical-align: auto;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: start;
+    align-items: start;
+    vertical-align: auto;
+}
+.row3{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    width: 100%;
+    
+    justify-content: start;
+    align-items: start;
+    vertical-align: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    float:left;
+  }
+.my-button {
+    background-color: rgb(88, 86, 86); 
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    width:75%;
+  }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:100%;
+}
+.dropbtn {
+    background-color: transparent;
+    color: rgb(86, 84, 84);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    height: 10%;
+    width: 100%;
+    float:right;
+    cursor: pointer;
+    color: aliceblue;
+    justify-content: right;
+    float:right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+}
+.dropdown-content a {
+    color: rgb(147, 147, 147);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    width:100%;
+  }
+/* .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:85%;
+    break-before: always;
+    border: white;
+  }
+  
+  .box {
+    flex: 1;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-right: transparent;
+    
+  }
+  .box11 {
+    flex: 1;
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 5 px;
+}
+  
+  .box1 {
+    background-color: orange;
+    width: 100%;
+  }
+  
+  .box2 {
+    background-color: green;
+    width: 100%;
+  }
+  
+  .box3 {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+  }
+  .box4 {
+    background-color: rgb(95, 95, 95);
+    width: 100%;
+  }
+  .box5{
+    background-color: rgb(116, 115, 115);
+    width: 100%;
+  }
+  .box6{
+    background-color: rgb(53, 68, 101);
+    width: 100%;
+  }
+  .box p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .img{
+    height: 26px;
+  }
+  .containerrow {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:85%;
+    break-before: always;
+    background-color: transparent;
+  }
+  
+  .boxrow {
+    flex: 1;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    width:85%;
+    
+  }
+  p{
+    font-size: 12px;
+  }
+  

@@ -1,0 +1,256 @@
+.base1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.Row1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 25%;
+    background-color: rgb(59, 59, 63);
+}
+.Row2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 25%;
+    background-color: rgb(59, 59, 63);
+}
+.Row3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 30%;
+    background-color: rgb(28, 26, 26);
+}
+.Blend{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:30%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.Rectcol{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    height:70%;
+    padding-left: 7px;
+}
+h2{
+    font-size: 15px;
+    width: 100%;
+}
+h1{
+    font-size: 14px;
+    width: 100%;
+    color: red;
+}
+h3{
+    font-size: 13px;
+    width: 100%;
+    color: rgb(100, 249, 46);
+}
+p{
+    font-size: 10px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:2%;
+    break-before: always;
+    border: white;
+    height:72%;
+    justify-content: start;
+    padding-right: 14px;
+   
+}
+.boxrec {
+    flex: 1;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: transparent;
+    width: 10%;
+    border: white;
+    padding-left: 7px;
+    
+}
+.box111 {
+    background-color: orange;
+    width: 100%;
+    height:30%;
+}
+.box222 {
+    background-color: green;
+    width: 100%;
+    
+}
+.box333 {
+    background-color: rgba(255, 0, 0, 0.968);
+    width: 100%;
+}
+.Production{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:25%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Hours{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:25%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.cols{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:100%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 2px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.container12{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:90%;
+    height: 100%;
+}
+.box12 {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-right: solid white;
+}
+.box13 {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.Text{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:30%;
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.cols12{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:100%;
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 2px;
+    align-items: center;
+}
+.Activity{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:20%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.marks{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:30%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.bar{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height:60%;
+    font-size: 15px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.progressbar {
+    width: 90%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .progressbar1 {
+    width: 90%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .progressbar2 {
+    width: 90%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+.progressbarfill1 {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+    width: 65%;
+  }
+  .progressbarfill2{
+    height: 100%;
+    background-color: #9d00ff;
+    border-radius: 10px;
+    width: 45%;
+  }
+  .progressbarfill3{
+    height: 100%;
+    background-color: #00ff59;
+    border-radius: 10px;
+    width: 30%;
+  }
+  

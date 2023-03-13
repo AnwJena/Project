@@ -1,0 +1,17 @@
+img{
+    height:30px;
+    width: 30px;
+    border: none;
+  }
+.wrapper{
+    align-items: center;
+    display: flex;
+    width:30px;
+    align-items: left;
+    flex-direction: column;
+    flex:3;
+}
+
+.sidebar_icons{
+    margin-bottom: 20px;
+}
