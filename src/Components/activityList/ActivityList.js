@@ -1,14 +1,14 @@
 import React from 'react';
 import './ActivityList.css';
 
-import num18 from 'C:/Users/sushsahoo/react-app/menu/src/Assests/num18.png';
-import num17 from 'C:/Users/sushsahoo/react-app/menu/src/Assests/num17.png';
-import num3 from 'C:/Users/sushsahoo/react-app/menu/src/Assests/num3.png';
-import num15 from 'C:/Users/sushsahoo/react-app/menu/src/Assests/num15.png';
+import num18 from '../../Assests/num18.png';
+import num17 from '../../Assests/num17.png';
+import num3 from '../../Assests/num3.png';
+import num15 from '../../Assests/num15.png';
 
-import rednotify from 'C:/Users/sushsahoo/react-app/menu/src/Assests/rednotify.png'
-import yellownotify from 'C:/Users/sushsahoo/react-app/menu/src/Assests/yellownotify.png'
-import whitenotify from 'C:/Users/sushsahoo/react-app/menu/src/Assests/whitenotify.png'
+import rednotify from '../../Assests/rednotify.png'
+import yellownotify from '../../Assests/yellownotify.png'
+import whitenotify from '../../Assests/whitenotify.png'
 
 const ActivityList = () => {
     return ( 
