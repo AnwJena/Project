@@ -1,9 +1,9 @@
 import React from 'react';
 import './allInsights.css';
 
-import bcircle from 'C:/Users/sushsahoo/react-app/menu/src/Assests/bcircle.png';
-import purple from 'C:/Users/sushsahoo/react-app/menu/src/Assests/purple.png';
-import green from 'C:/Users/sushsahoo/react-app/menu/src/Assests/green.png';
+import bcircle from '../../Assests/bcircle.png';
+import purple from '../../Assests/purple.png';
+import green from '../../Assests/green.png';
 
 const AllInsights = () => {
     return ( 
