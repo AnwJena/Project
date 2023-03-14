@@ -1,8 +1,8 @@
 import React from 'react';
 import './activityInsights.css';
 
-import Symbol from 'C:/Users/sushsahoo/react-app/menu/src/Assests/Symbol.png';
-import error1 from 'C:/Users/sushsahoo/react-app/menu/src/Assests/error1.png';
+import Symbol from '../../Assests/Symbol.png';
+import error1 from '../../Assests/error1.png';
 
 const ActivityInsights = (props) => {
     return ( 
